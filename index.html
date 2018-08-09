@@ -1,0 +1,716 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Best Astrologer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Honest Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+
+</head>
+<body>
+
+		<div class="banner" id="home">
+		<div class="header-bottom wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">
+		     <div class="container">
+			  <div class="fixed-header">
+
+			       <div class="logo">
+                      <a href="index.html"><h1>B<span>est Astrologer</span></h1></a>
+					  <p>All Religious Welcome</p>
+				   </div>
+
+					<div class="top-menu">
+							<span class="menu"> </span>
+							<nav class="link-effect-4" id="link-effect-4">
+                              <ul>
+								 <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+								<li><a data-hover="About" href="" class="scroll">About</a></li>
+								<li><a data-hover="Services" href="" class="scroll">Services</a></li>
+								<li><a data-hover="Astrology Canada" href="" class="scroll">Astrology Canada</a></li>
+							    <li><a data-hover="Horoscope" href="" class="scroll">Horoscope</a></li>
+							    <li><a data-hover="Festival" href="" class="scroll">Festival</a></li>
+								<li><a data-hover="Contact" href="" class="scroll">Contact</a></li>
+
+								</ul>
+							</nav>
+							</div>
+
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+							
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$(".header-bottom").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop(); 
+						if(scrollpos >=navoffeset){
+							$(".header-bottom").addClass("fixed");
+						}else{
+							$(".header-bottom").removeClass("fixed");
+						}
+					 });
+					 
+				});
+				</script>
+			 </div>
+		</div>
+	</div>
+		<div class="banner-slider">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					    <li>
+						   <div class="banner-info">
+							      <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">World Famous</h3>
+								  <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Indian Astrologer</p>
+								     <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/border.png" alt="border"/></div>
+								 <span class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Consult Now</span>
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							    <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Our Specialist</h3>
+								 <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Indian Puja Gallery</p>
+								  <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/border.png" alt="border"/></div>
+								 <span class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Check It Now</span>
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							      <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Horoscope</h3>
+								  <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Psychic & Form Reading</p>
+								   <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/border.png" alt="border"/></div>
+								   <span class="wow slideInUpslideInLeft"  data-wow-duration="1s" data-wow-delay=".3s">Consult Now</span>
+						   </div>
+					  </li>
+					</ul>
+			  </div>
+
+	  	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			 
+			    $(function () {
+			  
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	   
+		 </div>
+
+		 <div class="down"><a class="scroll" href="#services"><img src="images/down.png" alt=""></a></div>
+	</div>
+
+
+		  <div class="about" id="about">
+		     <div class="container">
+			
+			   <div class="about-section">
+				<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/s1.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Financial <span>Problems</span></h4>
+							<p>Money is important to everybody’s life. Without money nothing will move.</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s2.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Business <span>Problems</span></h4>
+							<p>Business Problem will be attended in astrological way and psychic way.</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+			   <div class="col-md-5 ab-text">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Welcome</h3>
+						  <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+						  <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">All our life is not the same all the time. Some people are all the way happy some are always sad. And our life is full of unexpected turns. We sometimes fear the losses, problems and misery in life. And we want to avoid, escape such problems and in the process we get confused as what to do at the same time we loose track in our life.</p>
+						  <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="" class="hvr-bounce-to-bottom">Get Started</a>
+						  </div>
+
+					</div>
+					<div class="clearfix"> </div>
+			 </div>
+			 
+			   <div class="about-section">
+			        <div class="col-md-5 ab-text two">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">About</h3>
+						 <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+						  <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Vedic Astrology is science and ancient knowledge repository to guide each of us to gain most of our life on earth. This will enable us to predict and foresee what is in store for us in this world both good and bad so that we are prepared to face anything. Everyone faces ups and downs in every walk of life and strive to surmount every problem that we face.</p>
+						 <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="" class="hvr-bounce-to-bottom">Read more</a>
+						  </div>
+
+					</div>
+						<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/s4.png" alt="img25"/>
+						<figcaption>
+							<h4>Health <span>Issue</span></h4>
+							<p>Do you know, your horoscope gives clues on your health and your health status and future?</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s3.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Negative <span>Energy</span></h4>
+							<p>Negative energy can come to a person from anywhere outside or from some other houses.</p>
+						
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+					<div class="clearfix"> </div>
+			 </div>
+			
+			</div>
+	     </div>
+
+	<div class="service" id="services">
+		<div class="container">
+		    <h3 class="tittle">Our Services</h3>
+			<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="inst-grids">
+					<div class="col-md-3 services-gd text-center wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Vashikaran Expert</h4>
+						 <p>Vashikaran is the ancient tantric practice in which Vashikaran specialist will use mantras to control.</p>
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Childless Couples</h4>
+						 <p>Having children is a bliss and blessing. It’s the dream of every married couple to have children. </p>
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInUp"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Enemy Problems</h4>
+						 <p>You are successful and prosperous after a long trial and long bumpy road. But that is not the end.</p>
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInRight"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Horoscope Read</h4>
+						 <p>Vedic Astrology is the opening to know our past present and future. Vedic Astrology is a natural science.</p>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="col-md-3 services-gd text-center wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Negative Energy</h4>
+						 <p>Negative energy can come to a person from anywhere outside or from some other houses. </p>
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Health Issue</h4>
+						 <p>Do you know, your horoscope gives clues on your health and your health status and future?</p>
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInUp"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Spiritual Healing</h4>
+						 <p>Physical health and mental health together is important for a person to enjoy healthy life.</p>
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInRight"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Stop Separation</h4>
+						 <p>We all want love in our life and want to get married and have family and want to share with our loved ones.</p>
+					</div>
+					<div class="clearfix"> </div>					
+				</div>
+
+		</div>
+	</div>
+
+	<div class="team-section" id="team">
+	 	  <div class="container">
+		  <h3 class="tittle">Special Services</h3>
+		  <div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+	 		<div class="box2">
+	 		   <div class="col-md-3 s-1 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+			   <a href="#">
+	 		   	<div class="view view-fifth">
+                    <img src="images/chef1.png" alt="chef">
+                    <div class="mask">
+                        <h4>Financial And Business Problems</h4>
+                        <p>Money is important to everybody’s life. Without money nothing will move.</p>
+                         <p class="p2"> From birth to death money is needed. Money has become very basic requirement.</p>
+                     </div>
+                   
+				    </div>
+				  </a>
+			
+				</div>
+		<div class="col-md-3 s-2 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+		<a href="#">
+	 		   	<div class="view view-fifth">
+                      <img src="images/chef2.jpg" alt="chef">
+                       <div class="mask">
+                        <h4>Love Spells And Vashikaran</h4>
+                        <p>Vashikaran is the ancient tantric practice in which Vashikaran specialist will use mantras to control.</p>
+                         <p class="p2">Vashikaran can be used for both good and bad. Vashikaran with bad intentions will affect both.</p>
+                     </div>
+               
+				    </div>
+				  </a>
+				
+				</div>
+			  <div class="col-md-3 s-3 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+			  <a href="#">
+	 		   	<div class="view view-fifth">
+                     <img src="images/chef3.jpg" alt="chef">
+                    <div class="mask">
+                        <h4>Jealously And Curse</h4>
+                        <p>Marriage is a long term commitment for man and woman. Husband and wife problems may arise due emotional reasons.</p>
+                         <p class="p2">Some couple may lead to break up out of long lasting fights and differences.</p>
+                     </div>
+                  
+				    </div>
+				  </a>
+					
+				</div>
+				<div class="col-md-3 s-4 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+				 <a href="#">
+	 		   	 <div class="view view-fifth">
+                      <img src="images/chef4.jpg" alt="chef">
+                    <div class="mask">
+                        <h4>Health Issues Problem</h4>
+                        <p>Do you know, your horoscope gives clues on your health and your health status and future?</p>
+                         <p class="p2">Astrology can show the problems and will indicate the ways to improve your problems.</p>
+                     </div>
+                   
+				    </div>
+				  </a>
+					
+				</div>
+				<div class="clearfix"></div>
+		     </div>
+	 	    </div>
+	 	</div>
+
+	<div id="review" class="reviews">
+			   <div class="col-md-6 test-left-img">
+			   </div>
+				<div class="col-md-6 test-monials">
+					<h3 class="tittle">Testimonials</h3>
+					<div class="arrows-serve test"><img src="images/border.png" alt="border"></div>
+		
+						<div class="sreen-gallery-cursual">
+				
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+					
+						       <div id="owl-demo" class="owl-carousel">
+					                 <div class="item-owl">
+					                		<div class="test-review">
+											   <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"><img src="images/left-quotes.png" alt=""> Thanks a lot to Guruji Anandram ji. Which you provide me remedies for my business it is extremely benefited for my business. You are the best for me, my family and my business, we also follow your instructions.<img src="images/right-quotes.png" alt=""></p>
+						                	  <img src="images/t3.jpg" class="img-responsive" alt=""/>
+											  <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">ALBERT</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+										 <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"> <img src="images/left-quotes.png" alt=""> It’s my great pleasure to recommend Pandith ji. I first came to know him through a random search on the internet. Very good knowledge about astrology has a deep and detailed knowledge of his subject. He is consistent, reliable and accurate.<img src="images/right-quotes.png" alt=""></p>
+						                	<img src="images/t2.jpg" class="img-responsive" alt=""/>
+											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Dennis </h5>
+					                	</div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+										     <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"><img src="images/left-quotes.png" alt="">Pandith ji is very good. He will hit the nail right and share the facts that you might be going through, at last he was very accurate in my case. He is very polite and ready to help us without any terms. I would definitely recommend anyone who believes in astrology and looking for some help.<img src="images/right-quotes.png" alt=""></p>
+						                	<img src="images/t1.jpg" class="img-responsive" alt=""/>
+											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Martin </h5>
+					                	</div>
+					                </div>
+				              </div>
+				
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+		</div>
+
+	<div class="reservation" id="reservation">
+		<div class="container">
+		<div class="reservation-info">
+		  <h3 class="tittle reserve">Consult Now</h3>
+			 <div class="arrows-reserve"><img src="images/border.png" alt="border"></div>
+				<div class="book-reservation wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+					<form>
+					 <div class="col-md-4 form-left">
+						<label><i class="glyphicon glyphicon-calendar"></i> Date :</label>
+						<input type="date">
+						</div>
+						<div class="col-md-4 form-left">
+							<label><i class="glyphicon glyphicon-user"></i> No.of People :</label>
+							<select class="form-control">
+								<option>1 Person</option>
+								<option>2 People</option>
+								<option>3 People</option>
+								<option>4 People</option>
+								<option>5 People</option>
+								<option>More</option>
+							</select>
+						</div>
+						<div class="col-md-4 form-right">
+							<label><i class="glyphicon glyphicon-time"></i> Time :</label>
+							<input type="time">
+						</div>
+						<div class="clearfix"> </div>
+						<div class="make wow shake" data-wow-duration="1s" data-wow-delay=".5s">
+						  <input type="submit" value="Book Your Appointment">
+						</div>
+					</form>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>	
+
+<div class="gallery" id="gallery">
+	<div class="container">
+		<h3 class="tittle">What We Offer</h3>
+		<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="gallery-grids">
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Horoscope Reading</h4>
+										<span class="separator"></span>
+										<p>Vedic Astrology is the opening to know our past present and future. Vedic Astrology is a natural science.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Property Problems</h4>
+										<span class="separator"></span>
+										<p>Possessions are life time aim for everybody. Some people are born rich and inherit huge properties.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Health Issue</h4>
+										<span class="separator"></span>
+										<p>Your horoscope gives clues on your health</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Negative Energy</h4>
+										<span class="separator"></span>
+										<p>Negative energy can come to a person from anywhere</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Spirit Removal</h4>
+										<span class="separator"></span>
+										<p>Every living beings in universe is in energy forms.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/c4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Spiritual Healing</h4>
+										<span class="separator"></span>
+										<p>Physical health and mental health is important for a person.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g7.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Finance Problem</h4>
+										<span class="separator"></span>
+										<p>Money is important to everybody’s life. Without money nothing will move.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="images/g8.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g8.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Business Problem</h4>
+										<span class="separator"></span>
+										<p>Business are like debts, No profile and negative money flow stagnation.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+
+
+	 <div class="section-contact" id="contact">
+	    <div class="container">
+           <div class="contact-main">
+				    <div class="col-md-6 contact-grid wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+					<h3 class="tittle wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Contact Us</h3>
+						<div class="arrows-three"><img src="images/border.png" alt="border"></div>
+							<p class="wel-text wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".4s">We solves problem related to Get your love back, Realationship / Family Problem, Financial & Business Problem, Jealousy and Curse, Vashikarn, Court Case Problem, Heath Issues Problem, Evil Spirit, Reuniting Loved Once, Stop Breakups, Job Problem, Removing Bad Luck , Horoscope and more...</p>
+						    <form id="filldetails">
+					  <div class="field name-box">
+							<input type="text" id="name" placeholder="Who Are You?" required=""/>
+							<label for="name">Name</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  
+					  <div class="field email-box">
+							<input type="text" id="email" placeholder="example@email.com" required=""/>
+							<label for="email">Email</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  
+					  <div class="field phonenum-box">
+							<input type="text" id="email" placeholder="Phone Number" required=""/>
+							<label for="email">Phone</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+					  <div class="field msg-box">
+							<textarea id="msg" rows="4" placeholder="Your message goes here..." required=""/ ></textarea>
+							<label for="msg">Message</label>
+							<span class="ss-icon">check</span>
+					  </div>
+						<div class="send wow shake"  data-wow-duration="1s" data-wow-delay=".3s">
+											<input type="submit" value="Send" >
+										</div>
+					 
+			  </form>
+
+					   </div>
+					<div class="col-md-6 contact-in wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".5s">
+						<h4 class="info">Our Info </h4>
+						<p class="para1">All our life is not the same all the time. Some people are all the way happy some are always sad. And our life is full of unexpected turns. We sometimes fear the losses, problems and misery in life. And we want to avoid, escape such problems and in the process we get confused as what to do at the same time we loose track in our life.</p>
+						<div class="con-top">
+							<h4>Canada</h4>
+								<ul>
+								<li>4th Floor</li> 
+								<li>New York Road,</li>  
+								 
+								<li>Alaska - 99501</li> 
+								<li>Ph:4568956555 </li>
+								<li>Time : 7am to 11pm</li>
+								<li><a href="mailto:info@example.com">mail@example.com</a></li>
+							  </ul>
+						</div>
+						<div class="con-top two">
+							<h4>Columbia</h4>
+							<ul>
+								<li>4th Floor</li> 
+								<li>New York Road,</li>   
+								
+								<li>Hawaii - 96815</li>
+								<li>Ph:3698521475 </li>
+								<li>Time : 7am to 11pm</li>	
+								<li><a href="mailto:info@example.com">mail@example.com</a></li>
+							</ul>								
+						</div>
+					</div>
+					
+						<div class="clearfix"> </div>
+			      </div>
+			
+				    <div class="map wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".5s">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60912.11637794959!2d78.44299450946639!3d17.411438580750822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1533806761741" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+			
+			 </div>
+		</div>
+
+		<div class="footer text-center">
+						<div class="container">
+						
+								   <div class="logo2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+									  <a href="index.html"><h2>B<span>est Astrologer</span></h2></a>
+									  <p>All Religious Welcome</p>
+									  
+								   </div>
+				
+								<a href="single.html" class="flag_tag2">Where to find us?</a>
+									<ul class="social wow slideInDown" data-wow-duration="1s" data-wow-delay=".3s">
+										<li><a href="#" class="tw"></a></li>
+										<li><a href="#" class="fb"> </a></li>
+										<li><a href="#" class="in"> </a></li>
+										<li><a href="#" class="dott"></a></li>
+										 <div class="clearfix"></div>
+									</ul>
+									
+
+					 </div>
+	     </div>
+
+						<script type="text/javascript">
+									$(document).ready(function() {
+
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+							
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
